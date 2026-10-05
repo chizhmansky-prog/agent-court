@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "title": "Agent Court",
+  "exportLabel": "Edited demo from actual production runtime captures",
+  "captureRequirement": "Unmodified screenshots from the running production build. Cuts and captions explain the captured flow; this export is not a continuous screen recording.",
+  "financialMode": "Simulated refunds only; no real money moves.",
+  "width": 1280,
+  "height": 1280,
+  "fps": 30,
+  "imageWidth": 1180,
+  "imageHeight": 1050,
+  "imageTop": 150,
+  "background": "#090b0d",
+  "headingColor": "#b5f36b",
+  "captionColor": "#e4e7ec",
+  "headingFont": "agent-court/public/fonts/ibm-plex-mono-500.ttf",
+  "captionFont": "agent-court/public/fonts/ibm-plex-mono-400.ttf",
+  "fadeSeconds": 0.35,
+  "silentAac": true,
+  "output": "submission/final-video.mp4",
+  "verification": "submission/video-verification.json",
+  "scenes": [
+    {
+      "id": "home",
+      "capture": "reports/demo-home.jpg",
+      "seconds": 8,
+      "heading": "WHO CHALLENGES THE AGENT?",
+      "caption": "Before an autonomous agent acts, it may have to defend the action."
+    },
+    {
+      "id": "low",
+      "capture": "reports/demo-low.jpg",
+      "seconds": 8,
+      "heading": "LOW RISK. CLEARED TO PROCEED.",
+      "caption": "A permitted €80 refund executes automatically. All refunds are simulated."
+    },
+    {
+      "id": "court",
+      "capture": "reports/demo-court.jpg",
+      "seconds": 22,
+      "heading": "€850 REQUESTED. THE COURT OPENS.",
+      "caption": "Executor proposes. Evidence verifies a €425 limit. Risk objects.\nFour real CometChat identities; the action waits for a human decision."
+    },
+    {
+      "id": "human",
+      "capture": "reports/demo-human.jpg",
+      "seconds": 12,
+      "heading": "THE HUMAN CHANGES THE ACTION.",
+      "caption": "APPROVE €425 is a real CometChat message.\nThe server reads it back and validates its sender, room and policy."
+    },
+    {
+      "id": "receipt",
+      "capture": "reports/demo-receipt.jpg",
+      "seconds": 15,
+      "heading": "€425 EXECUTED. €425 PREVENTED.",
+      "caption": "A receipt records the human decision and simulated execution.\n€425 of policy-violating refund prevented in this simulated case."
+    },
+    {
+      "id": "skills",
+      "capture": "reports/demo-skills.jpg",
+      "seconds": 10,
+      "heading": "BUILT WITH COMETCHAT SKILLS.",
+      "caption": "Official CometChat Skills installed and used in the build.\nReal group chat carries the decision; no synthetic transcript."
+    },
+    {
+      "id": "outro",
+      "capture": "reports/demo-home.jpg",
+      "seconds": 5,
+      "heading": "GIVE AGENTS SOMEWHERE TO ANSWER.",
+      "caption": "Agent Court · Zero to Chat · Real chat. Deterministic policy. Simulated money."
+    }
+  ]
+}

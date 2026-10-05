@@ -1,0 +1,41 @@
+name: Verify Agent Court
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: agent-court
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: agent-court/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: Package Linux runtime without credentials or restricted font binaries
+        run: |
+          cp -r public .next/standalone/public
+          cp -r .next/static .next/standalone/.next/static
+          mkdir -p .next/standalone/scripts
+          cp scripts/fetch-fonts.mjs .next/standalone/scripts/fetch-fonts.mjs
+          tar --exclude='*/satoshi-*.woff2' -czf ../agent-court-linux.tgz -C .next/standalone .
+          sha256sum ../agent-court-linux.tgz > ../agent-court-linux.sha256
+      - name: Publish verified runtime as an immutable preview release
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="runtime-${GITHUB_SHA:0:12}"
+          gh release create "$tag" agent-court-linux.tgz agent-court-linux.sha256 --target "$GITHUB_SHA" --prerelease --title "Verified Linux runtime ${GITHUB_SHA:0:12}" --notes "CI-verified single-process demo runtime. No credentials or Satoshi binaries included; download the font directly from Fontshare before starting the app."

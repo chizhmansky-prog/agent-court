@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.cometchat/config.json
+.cometchat/credentials*
+.config/credentials*
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+public/fonts/satoshi-*.woff2

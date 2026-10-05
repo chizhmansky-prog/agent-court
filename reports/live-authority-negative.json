@@ -1,0 +1,26 @@
+{
+  "kind": "ACTUAL_PROVIDER_NEGATIVE_AUTHORITY",
+  "runId": "7a9677ed-a137-4688-9c15-08c21f553314",
+  "courtGuid": "court-order-303-7a9677ed-a137-4688-9c15-08c21f553314",
+  "results": [
+    {
+      "probe": "real human message from old other court",
+      "messageId": "14",
+      "state": "WAITING_HUMAN",
+      "error": "DECISION_AUTHORITY_INVALID",
+      "receiptPresent": false
+    },
+    {
+      "probe": "current risk-agent evidence as human decision",
+      "messageId": "29",
+      "state": "WAITING_HUMAN",
+      "error": "DECISION_AUTHORITY_INVALID",
+      "receiptPresent": false
+    },
+    {
+      "probe": "forged client amount",
+      "http": 400,
+      "body": "\r\n{\r\n  \"error\": \"INVALID_REQUEST_FIELDS\"\r\n}"
+    }
+  ]
+}

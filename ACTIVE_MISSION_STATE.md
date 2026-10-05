@@ -1,0 +1,27 @@
+# ACTIVE_MISSION_STATE
+
+- mission_id: agent-court-2026-10-05
+- mission_type: codebase_repair / build
+- active_workspace: C:/Users/chizh/Desktop/Agent_Court_Zero_to_Chat_package
+- output_class: CASE_PROJECT_ARTIFACT
+- approved_output_root: C:/Users/chizh/Desktop/Agent_Court_Zero_to_Chat_package
+- current_phase: Core product implementation after actual Gate 0 PASS
+- current_mode: EXECUTE
+- current_verdict: IN_PROGRESS
+- next_safe_action: Server court state machine, real CometChat decision path, frontend; independent verification
+- rules_loaded: AWOS manual, runtime controller README/runbook, filesystem patch 003, AI Builder Founder OS, user AGENTS instructions
+- route: local code + official npm/docs; browser inspected login
+- blockers: implementation; verification; delivery/publication (credentials/login and actual Gate0 resolved)
+- evidence_ledger: COMPLETION_PLAN.md and reports (created as evidence exists)
+- FILES_CREATED: 3
+- FILES_MODIFIED: 0
+- STATE_MUTATING_EXTERNAL: 9 # app1 + demoUsers4 + group1 + token1 + messages2 evidenced; login separate
+- SECRET_VALUES_PRINTED: 0
+- FORBIDDEN_PATH_TOUCHES: 0
+- protected_gates: login/credentials, production publishing, X send
+- completed_actions: all 3 source specs fully read; two read-only agents dispatched; official rules browsed; credentials names and browser session checked
+- path_safety: new project files only under approved root; original specifications preserved; no AWOS skill writes
+- stop_condition: Publication and real submission require exact action authorization; max5h build
+- gate0_evidence: reports/GATE0_EVIDENCE.md; actual human message4, realtime executor5, SDK history GATE0_PASS
+- provider_mutations: free app created, four demo users and private integration group; human+agent test messages
+- credential_status: official CLI provisioned; .env.local server secret with no public Auth/REST key

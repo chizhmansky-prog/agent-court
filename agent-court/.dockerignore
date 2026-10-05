@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env*
+!.env.example
+.cometchat/config.json
+.cometchat/credentials*
+.claude
+.codex
+coverage
+test-results
+playwright-report
+*.tsbuildinfo
