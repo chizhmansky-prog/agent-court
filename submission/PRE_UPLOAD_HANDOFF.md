@@ -1,5 +1,7 @@
 # Agent Court — pre-upload handoff
 
+Historical pre-upload record. The later final-send authorization and actual submission at the end of this document supersede the earlier stop boundary. Current authority: [submission receipt](SUBMISSION_RECEIPT.json).
+
 FINAL_STATUS: PRE_UPLOAD_FOUNDATION_VERIFIED / FINAL_UPLOAD_HELD_BY_USER
 
 The requested scope is complete through the final contest-upload boundary. No X video upload, quote-post or send has occurred. No submitted-entry URL is claimed. The original three specifications are preserved; this handoff records their implementation and the user's later narrowed stop condition.
@@ -44,3 +46,7 @@ One Node process retains state in memory, with 100 runs maximum. Restart makes o
 Before a later final send: confirm no other entry has been submitted by this person, recheck the temporary demo URL and public repository, attach this exact video, quote the official thread and use the prepared text containing @CometChat and #ZeroToChat. The official page closes the contest on 7 October 2026 and does not specify a cutoff time. The original package's safer internal deadline is 6 October at 18:00 Europe/Riga.
 
 Stop condition reached: final upload/send remains under the user's explicit boundary. The single-entry check is HUMAN_CHECK_AT_FINAL_SEND, not eligibility PASS.
+
+## Subsequent final-send authorization — 5 October 2026
+
+The user subsequently requested final sending and confirmed no other entry. The earlier pre-upload boundary is superseded. Exactly one quote-post was sent: [actual entry](https://x.com/guyver65731/status/2107054208327278951), with the audited 80-second video, public repository, @CometChat and #ZeroToChat. X confirmed sending and the direct post was read back. FINAL_STATUS: SUBMITTED_AND_BROWSER_READBACK_VERIFIED. Receipt: submission/SUBMISSION_RECEIPT.json; screenshot: reports/submission-sent.png. Organizer acceptance is not yet confirmed.

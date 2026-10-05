@@ -8,7 +8,7 @@ Zero to Chat 2026 demo. Built with CometChat Skills.
 
 ![Agent Court dark interface](../reports/product-dark.jpg)
 
-The video is an **edited demo from actual production runtime captures**, with actual editor/official CLI Skills evidence. It is not a continuous screen recording. Export metadata verifies 80.021333 seconds, 1280×960, H264/yuv420p, 30fps and AAC. Independent visual review passed; the human single-entry check remains open; no X upload/send has occurred.
+The video is an **edited demo from actual production runtime captures**, with actual editor/official CLI Skills evidence. It is not a continuous screen recording. Export metadata verifies 80.021333 seconds, 1280×960, H264/yuv420p, 30fps and AAC. Independent visual review passed; the user confirmed this is their only entry. [The X entry was submitted and read back](https://x.com/guyver65731/status/2107054208327278951).
 
 ## What the demo does
 
@@ -139,8 +139,8 @@ The dark UI screenshot and public runtime read-back are available. [Video verifi
 | Public demo | [Browser E2E passed](https://burning-stephen-contractors-really.trycloudflare.com); temporary URL/no uptime guarantee |
 | Screenshot | Captured above |
 | Video | 80.021333s metadata verified; [independent visual review passed](../reports/MEDIA_AUDIT.md) |
-| Single-entry check | HUMAN_CHECK_AT_FINAL_SEND |
-| X quote-post/submission URL | NOT SENT; final upload/send excluded from current authorization |
+| Single-entry check | Confirmed by the user before sending |
+| X quote-post/submission URL | [Submitted and read back](https://x.com/guyver65731/status/2107054208327278951) |
 | Docker image runtime | UNVERIFIED; not used for this deployment |
 
-The [original three specifications](../README.md) remain the source of product requirements. [Tweet draft](../submission/TWEET_DRAFT.md) and [contest checklist](../submission/CONTEST_CHECKLIST.md) identify the remaining final-send checks. The user authorized preparation up to final upload; this README does not claim a completed submission.
+The [original three specifications](../README.md) remain the source of product requirements. [Tweet draft](../submission/TWEET_DRAFT.md) and [contest checklist](../submission/CONTEST_CHECKLIST.md) identify the remaining final-send checks. The user subsequently authorized the final send. The video, repository, tags and official quote were verified on the actual published post; [submission receipt](../submission/SUBMISSION_RECEIPT.json). Organizer acceptance is not yet confirmed.

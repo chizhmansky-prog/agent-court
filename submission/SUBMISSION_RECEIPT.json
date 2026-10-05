@@ -1,0 +1,36 @@
+{
+  "status": "SUBMITTED_AND_BROWSER_READBACK_VERIFIED",
+  "verifiedAtUtc": "2026-10-05T10:25:34Z",
+  "userFinalSendAuthorization": "2026-10-05: заполняй заявку и отправляй",
+  "singleEntryConfirmedByUser": true,
+  "account": "@guyver65731",
+  "tweetUrl": "https://x.com/guyver65731/status/2107054208327278951",
+  "quotedOfficialThread": "https://x.com/CometChat/status/2103065271233888471",
+  "officialConditions": "https://www.cometchat.com/hackathon",
+  "videoFile": "submission/final-video.mp4",
+  "videoSha256": "d1e1aa86cd0f88f22fd6c48e09920c25a4f1e9815e065da5472e657bb001097d",
+  "sourceDurationSeconds": 80.021333,
+  "publishedPlayerDuration": "1 minute 20 seconds",
+  "repository": "https://github.com/chizhmansky-prog/agent-court",
+  "publishedRepositoryRedirect": "https://t.co/wWncW7iLd5 -> HTTP200 https://github.com/chizhmansky-prog/agent-court",
+  "submissionPackageCommit": "68b3105d4ef0c0b6503e070f4bcec6a782b002e0",
+  "deployedApplicationSourceCommit": "be724c56279461b9d5c64157eda63eaaa8d2f08e",
+  "checks": {
+    "uploadReady": true,
+    "xSentConfirmation": "Your post was sent.",
+    "directPostReadback": true,
+    "cometchatMention": true,
+    "zeroToChatHashtag": true,
+    "officialQuoteAttached": true,
+    "videoVisibleAndPlaying": true,
+    "profilePostCountObserved": 1
+  },
+  "evidence": {
+    "screenshot": "reports/submission-sent.png",
+    "browserReadback": "reports/submission-browser-readback.txt",
+    "readyScreenshot": "reports/submission-ready.png"
+  },
+  "accountNotice": "X displayed Unlock more on X: discoverability and unsolicited-DM limits for the account. Informational Got it was dismissed; no account restriction was bypassed. Publication succeeded; unrestricted discovery is not certified.",
+  "organizerAcceptance": "NOT_YET_CONFIRMED",
+  "duplicateSubmission": "None created; exactly one Post action was issued."
+}

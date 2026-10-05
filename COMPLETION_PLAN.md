@@ -40,6 +40,11 @@ Missing credentials or login: report gate; finish safe integration preparation, 
 Deliver source paths, commands and actual results, runtime artifacts, independent findings, open blockers and FINAL_STATUS. Full COMPLETE only if original DoD—including actual chat/runtime, URL, public repo, video and X submission—is evidenced. Local build/test success is not integration PASS.
 
 ## STATUS
+Current status: SUBMITTED_AND_BROWSER_READBACK_VERIFIED; see the later final-send record below. The following paragraph preserves the prior pre-upload checkpoint.
 **PRE_UPLOAD_FOUNDATION_VERIFIED / FINAL_UPLOAD_HELD_BY_USER.** Gate 0 passed before product build (human4 / executor5). Core, dark UI, mobile layout, 127 repository tests and independent core/API/UI/state probes passed. Public Linux deployment is browser-tested: invalid human52 approval850 blocked; valid human53 approval425 produced Executor54 and a simulated receipt425/prevented425. The 80.021333s video passed independent exported-frame review and source hash verification. Evidence: reports/INDEPENDENT_CORE_AUDIT.md, reports/MEDIA_AUDIT.md, reports/public-live-readback.json and submission/PRE_UPLOAD_HANDOFF.md.
 
 The user's later instruction narrows completion to everything before final contest upload. That scope is complete; original full-submission COMPLETE is not claimed. One-entry eligibility remains HUMAN_CHECK_AT_FINAL_SEND. Final X upload/send is NOT SENT.
+
+## Subsequent final-send authorization — 5 October 2026
+
+The user subsequently requested final sending and confirmed no other entry. The earlier pre-upload boundary is superseded. Exactly one quote-post was sent: [actual entry](https://x.com/guyver65731/status/2107054208327278951), with the audited 80-second video, public repository, @CometChat and #ZeroToChat. X confirmed sending and the direct post was read back. FINAL_STATUS: SUBMITTED_AND_BROWSER_READBACK_VERIFIED. Receipt: submission/SUBMISSION_RECEIPT.json; screenshot: reports/submission-sent.png. Organizer acceptance is not yet confirmed.

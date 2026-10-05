@@ -6,7 +6,7 @@ Zero to Chat 2026 demo. Built with CometChat Skills.
 
 Agent Court creates a live CometChat room before a risky simulated refund. Executor proposes €850, Evidence establishes a €425 policy maximum, Risk objects, and a human sends `APPROVE €425`. The server reads that exact message from CometChat before producing the €425 execution receipt. The counterfactual shows €425 of policy-violating refund prevented in this simulated case.
 
-**Delivery status:** public build and real CometChat browser flow verified. Final competition upload has **not** been sent. All refunds are simulated; no money moves.
+**Delivery status:** public build and real CometChat browser flow verified. Competition entry **submitted**: [view the actual X post](https://x.com/guyver65731/status/2107054208327278951). All refunds are simulated; no money moves.
 
 [Open the public demo](https://burning-stephen-contractors-really.trycloudflare.com) · [Public repository](https://github.com/chizhmansky-prog/agent-court) · [Demo video](submission/final-video.mp4) · [Contest checklist](submission/CONTEST_CHECKLIST.md)
 
@@ -29,8 +29,8 @@ The demo URL is temporary, with no uptime guarantee; a tunnel restart changes it
 | Demo video | Exported: 80.021333s, 1280×960, H264/yuv420p, 30fps, AAC; [independent visual review passed](reports/MEDIA_AUDIT.md) |
 | Public GitHub repository | Available at the link above |
 | Public demo URL and browser smoke | PASS; [sanitized deployment receipt](reports/public-deployment-receipt.json) |
-| Single-entry eligibility | HUMAN_CHECK_AT_FINAL_SEND |
-| X submission URL | NOT SENT — final upload is the user's stop boundary |
+| Single-entry eligibility | Confirmed by the user before sending |
+| X submission URL | [Submitted and read back](https://x.com/guyver65731/status/2107054208327278951); [receipt](submission/SUBMISSION_RECEIPT.json) |
 
 The video is an **edited demo from actual production runtime captures**, not a continuous screen recording. Its Skills shot includes the actual editor and official CLI installation evidence. [Export metadata and source hashes](submission/video-verification.json) record technical verification; [independent exported-frame review](reports/MEDIA_AUDIT.md) passed.
 
@@ -51,6 +51,6 @@ The original requirements remain authoritative:
 - [Product logic and execution invariant](02_AGENT_COURT_LOGIC.md)
 - [Integration and submission requirements](03_STACK_DEPENDENCIES_INTEGRATIONS_REGISTRATION.md)
 
-[Completion plan](COMPLETION_PLAN.md) records the execution phases. [Pre-upload handoff](submission/PRE_UPLOAD_HANDOFF.md) collects verified results and limitations. [Tweet draft](submission/TWEET_DRAFT.md) targets the official challenge thread with the real public repository URL. [Contest checklist](submission/CONTEST_CHECKLIST.md) records conditions and the final-send boundary. No published submission is claimed.
+[Completion plan](COMPLETION_PLAN.md) records the execution phases. [Pre-upload handoff](submission/PRE_UPLOAD_HANDOFF.md) collects verified results and limitations. [Tweet draft](submission/TWEET_DRAFT.md) targets the official challenge thread with the real public repository URL. [Contest checklist](submission/CONTEST_CHECKLIST.md) records conditions and the final-send boundary. The [published submission](https://x.com/guyver65731/status/2107054208327278951) was read back with the video and official quote attached. Organizer acceptance is not yet confirmed.
 
 The runtime deliberately has no database. Restart loses active run IDs, which then return HTTP 410. Capacity is 100 runs per process; completed decisions are retained to prevent replay. Stateless or multiple-instance hosting is unsupported. The public app uses the Linux CI artifact, private server credentials and an anonymous HTTPS Quick Tunnel. Docker build/run remains unverified and is not the active deployment route.

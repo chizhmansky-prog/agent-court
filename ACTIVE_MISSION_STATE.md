@@ -5,23 +5,23 @@
 - active_workspace: C:/Users/chizh/Desktop/Agent_Court_Zero_to_Chat_package
 - output_class: CASE_PROJECT_ARTIFACT
 - approved_output_root: C:/Users/chizh/Desktop/Agent_Court_Zero_to_Chat_package
-- current_phase: Pre-upload contest package verified
+- current_phase: Contest entry submitted and read back
 - current_mode: HANDOFF
-- current_verdict: PRE_UPLOAD_FOUNDATION_VERIFIED / FINAL_UPLOAD_HELD_BY_USER
-- next_safe_action: Final package commit/push and fresh public-link read-back; stop before X upload/send
+- current_verdict: SUBMITTED_AND_BROWSER_READBACK_VERIFIED
+- next_safe_action: Archive actual submission evidence; stop after handoff, without duplicate posting
 - rules_loaded: AWOS manual, runtime controller README/runbook, filesystem patch 003, AI Builder Founder OS, user AGENTS instructions
 - route: local code + official npm/docs; browser inspected login
-- blockers: none for pre-upload scope; one-entry eligibility requires human confirmation before final send
+- blockers: none for submission; organizer acceptance and unrestricted X discoverability not certified
 - evidence_ledger: COMPLETION_PLAN.md and reports (created as evidence exists)
 - historical_intake_counters: FILES_CREATED=3, FILES_MODIFIED=0 (initial planning checkpoint only)
 - historical_gate0_external_counter: 9 (app1 + demoUsers4 + group1 + token1 + messages2; not a current total)
 - current_artifact_inventory: Git tracks source and evidence; generated dependencies, credentials and private deployment material remain ignored
 - SECRET_VALUES_PRINTED: 0
 - FORBIDDEN_PATH_TOUCHES: 0
-- protected_gates: spending and final X upload/send; public repository and isolated demo hosting authorized by the user
+- protected_gates: spending and further communications; user explicitly authorized this final X send
 - completed_actions: all 3 original specs fully read; Gate0 passed before product build; core implemented; independent audit passed; dark UI and mobile checked; public repository and real HTTPS CometChat E2E verified; 80.021333s video independently reviewed
 - path_safety: original specifications preserved; no AWOS skill source edits; deployment uses only new demo paths and own user services on the verified authorized host; existing proxy/services unchanged
-- stop_condition: stop before final contest upload/send as expressly requested; build completed within the original 5h budget
+- stop_condition: requested final send and direct-post read-back completed; stop without another entry; build completed within original 5h budget
 - gate0_evidence: reports/GATE0_EVIDENCE.md; actual human message4, realtime executor5, SDK history GATE0_PASS
 - provider_mutations: free app created, four demo users and private integration group; human+agent test messages
 - credential_status: official CLI provisioned; .env.local server secret with no public Auth/REST key
@@ -31,4 +31,7 @@
 - public_e2e_evidence: reports/public-live-readback.json; blocked human52 APPROVE850, human53 APPROVE425 -> executor54; simulated receipt425/prevented425
 - verification_evidence: 127 repository tests, Linux CI, reports/INDEPENDENT_CORE_AUDIT.md, reports/MEDIA_AUDIT.md, reports/public-deployment-receipt.json
 - final_media: submission/final-video.mp4; SHA256 d1e1aa86cd0f88f22fd6c48e09920c25a4f1e9815e065da5472e657bb001097d
-- submission_evidence: submission/CONTEST_CHECKLIST.md, submission/TWEET_DRAFT.md, submission/PRE_UPLOAD_HANDOFF.md; no submitted-entry URL
+- submission_evidence: submission/CONTEST_CHECKLIST.md, submission/TWEET_DRAFT.md, submission/PRE_UPLOAD_HANDOFF.md; actual entry https://x.com/guyver65731/status/2107054208327278951; submission/SUBMISSION_RECEIPT.json
+
+- single_entry_confirmation: user confirmed no other entry before sending
+- submission_evidence: reports/submission-sent.png, reports/submission-browser-readback.txt, submission/tweet-url.txt

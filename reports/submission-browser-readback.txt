@@ -1,0 +1,185 @@
+Browser tab: 9, Title: "Dark Guyver on X: \"Agent Court: a live CometChat room challenges an agent's €850 refund request. Human approval changes it to €425, with policy evidence and a simulated receipt. Built with CometChat Skills. @CometChat #ZeroToChat Repo: https://t.co/wWncW7iLd5 https://t.co/Y5bdjWz8TS\" / X", URL: "https://x.com/guyver65731/status/2107054208327278951".
+0 AXWebArea URL: x.com/guyver65731/status/2107054208327278951, Dark Guyver on X: "Agent Court: a live CometChat room challenges an agent's €850 refund request. Human approval changes it to €425, with policy evidence and a simulated receipt. Built with CometChat Skills. @CometChat #ZeroToChat Repo: https://t.co/wWncW7iLd5 https://t.co/Y5bdjWz8TS" / X
+	1 container
+		5 heading To view keyboard shortcuts, press question mark View keyboard shortcuts, Value: 2
+			6 text To view keyboard shortcuts, press question mark
+			7 link Description: View keyboard shortcuts, Value: x.com/i/keyboard_shortcuts
+		8 container
+			9 button Grok
+			10 button Chat
+		38 button Skip to home timeline
+		39 button Skip to trending
+		13 container
+			14 heading X, Value: 1
+				15 link Description: X, Value: x.com/home
+			16 container Primary
+				17 link Description: Home, Value: x.com/home
+				18 link Description: Search and explore, Value: x.com/explore
+				19 link Description: Notifications, Value: x.com/notifications
+				20 link Description: Follow, Value: x.com/i/connect_people
+				21 link Description: Direct Messages, Value: x.com/i/chat
+				22 link Description: Grok, Value: x.com/i/grok
+				23 link Description: History, Value: x.com/i/history
+				24 link Description: Premium, Value: x.com/i/premium_sign_up
+				25 link Description: Profile, Value: x.com/guyver65731
+				26 pop up button (collapsed) Description: More menu items, Secondary Actions: Expand
+					27 container
+						28 text More
+			29 link Description: Post, Value: x.com/compose/post
+			30 button Account menu
+				31 container
+					32 container Dark Guyver
+						33 image Dark Guyver
+				34 container
+					35 container
+						36 text Dark Guyver
+					37 text @guyver65731
+		40 container
+			41 container Home timeline
+				42 container
+					43 container
+						44 button Back
+						45 heading Post, Value: 2
+							46 text Post
+				47 container Conversation
+					48 heading Conversation, Value: 1, ID: accessible-list-6
+						49 text Conversation
+					50 container Timeline: Conversation
+						177 container
+							178 container
+								179 container Dark Guyver @guyver65731 Agent Court: a live CometChat room challenges an agent's €850 refund request. Human approval changes it to €425, with policy evidence and a simulated receipt. Built with CometChat Skills. @CometChat #ZeroToChat Repo: github.com/chizhmansky-pr Embedded video 0:49 Unmute Quote CometChat
+									180 container
+										181 link x.com/guyver65731
+										182 container
+											183 container id__hkfqa40nm0l
+												184 link Description: Dark Guyver, Value: x.com/guyver65731
+												185 link Description: @guyver65731, Value: x.com/guyver65731
+											186 container
+												187 button Grok actions
+												188 pop up button (collapsed) Description: More, Secondary Actions: Expand
+										189 container id__12ip6240ws2b
+											190 text Agent Court: a live CometChat room challenges an agent's €850 refund request. Human approval changes it to €425, with policy evidence and a simulated receipt. Built with CometChat Skills. 
+											191 link Description: @CometChat, Value: x.com/CometChat
+											192 link Description: #ZeroToChat, Value: x.com/hashtag/ZeroToChat?src=hashtag_click
+											193 text 
+Repo: 
+											194 link Description: github.com/chizhmansky-pr, Value: t.co/wWncW7iLd5
+										195 container ID: id__tvkor6nrmta, Description: Quote CometChat @CometChat Sep 24 🚀 Zero to Chat - Edition 1 is live. Add chat, voice, or video to any project with one command. Your AI agent writes the code. Best builds win 6 months of Claude, on us. 14 days. One entry per person. Existing projects count. 🧵 Image
+											196 container
+												197 container Embedded video
+												198 container
+													199 text 0:49
+													200 button Unmute
+											201 container id__cs232e6ztr5
+												202 text Quote
+												203 link CometChat @CometChat Sep 24 🚀 Zero to Chat - Edition 1 is live. Add chat, voice, or video to any project with one command. Your AI agent writes the code. Best builds win 6 months of Claude, on us. 14 days. One entry per person. Existing projects count. 🧵 Image
+													204 container
+														205 container
+															206 container
+																207 container
+																	208 text CometChat
+																209 container
+																	210 text @CometChat
+																	211 container Sep 24
+																		212 text Sep 24
+														213 container
+															214 image Description: 🚀, Help: Rocket
+															215 text  Zero to Chat - Edition 1 is live.
+
+Add chat, voice, or video to any project with one command. Your AI agent writes the code. Best builds win 6 months of Claude, on us.
+
+14 days. One entry per person. Existing projects count. 
+															216 image Description: 🧵, Help: Thread
+														217 link Description: Image, Value: x.com/CometChat/status/2103065271233888471/photo/1
+										218 container
+											219 container
+												220 link Description: 1:24 PM · Oct 5, 2026, Value: x.com/guyver65731/status/2107054208327278951
+												221 link Description: 1 View, Value: x.com/guyver65731/status/2107054208327278951/analytics
+										222 container Description: 1 view, ID: id__7tg5kmex6n5
+											223 button 0 Replies. Reply
+											224 pop up button (collapsed) Description: 0 reposts. Repost, Secondary Actions: Expand
+											225 button 0 Likes. Like
+											226 button 0 Bookmarks. Bookmark
+											227 pop up button (collapsed) Description: Share post, Secondary Actions: Expand
+								228 container
+									229 container
+										230 link Description: Dark Guyver, Value: x.com/guyver65731
+										231 container
+											232 container
+												233 container
+													234 text Post your reply
+													235 text entry area (settable) Description: Post text, Value: 
+
+											236 button (disabled) Reply
+												237 text Reply
+			108 container
+				109 container Trending
+					110 container
+						111 container Search
+							112 container
+								113 combo box (settable) Search query
+						114 container Relevant people
+							115 heading Relevant people, Value: 2
+								116 text Relevant people
+							117 content list
+								118 container
+									119 container
+										120 link Description: Dark Guyver, Value: x.com/guyver65731
+										121 link Description: @guyver65731, Value: x.com/guyver65731
+								122 container
+									123 container
+										124 container
+											125 link Description: CometChat, Value: x.com/CometChat
+											126 link Description: @CometChat, Value: x.com/CometChat
+										127 button Follow @CometChat
+											128 text Follow
+									129 text Quickly build in-app messaging & voice/video calling into any mobile or website using our Chat Widgets, UI Kits, and SDKs & APIs.
+						130 container Trending now
+							131 heading Trending now, Value: 1, ID: accessible-list-7
+								132 text Trending now
+							133 container Timeline: Trending now
+								134 container
+									135 heading What’s happening, Value: 2
+										136 text What’s happening
+									137 link Trending in Latvia vēlēšanu More
+										138 container id__k5zuwzb8uwk
+											139 text Trending in Latvia
+											140 text vēlēšanu
+											141 pop up button (collapsed) Description: More, Secondary Actions: Expand
+									142 link Trending in Latvia $SXSI More
+										143 container id__x4pr3wacl1h
+											144 text Trending in Latvia
+											145 text $SXSI
+											146 pop up button (collapsed) Description: More, Secondary Actions: Expand
+									147 link Trending in Latvia nebūs More
+										148 container id__o2tc1zgltcc
+											149 text Trending in Latvia
+											150 text nebūs
+											151 pop up button (collapsed) Description: More, Secondary Actions: Expand
+									152 link Trending in Latvia nacionālā More
+										153 container id__6uvcd78vjsc
+											154 text Trending in Latvia
+											155 text nacionālā
+											156 pop up button (collapsed) Description: More, Secondary Actions: Expand
+									157 link Description: Show more, Value: x.com/explore/tabs/for-you
+						158 container Footer
+							159 container
+								160 link Description: Terms, Value: x.com/tos
+								161 text ·
+							162 container
+								163 link Description: Privacy, Value: x.com/privacy
+								164 text ·
+							165 container
+								166 link Description: Cookies, Value: support.x.com/articles/20170514
+								167 text ·
+							168 container
+								169 link Description: Accessibility, Value: help.x.com/resources/accessibility
+								170 text ·
+							171 container
+								172 link Description: Ads Info, Value: business.x.com/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+								173 text ·
+							174 pop up button (collapsed) Description: More, Secondary Actions: Expand
+								175 text More
+							176 text © 2026 X Corp.
+
+The focused UI element is 181 link x.com/guyver65731

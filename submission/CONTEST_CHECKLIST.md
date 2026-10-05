@@ -1,6 +1,6 @@
 # Agent Court — contest readiness checklist
 
-Status: **PRE_UPLOAD_FOUNDATION_VERIFIED**; human single-entry confirmation remains a final-send check. **Final X upload/send has not occurred and is outside the current authorization.**
+Status: **SUBMITTED_AND_BROWSER_READBACK_VERIFIED**. The user authorized final sending and confirmed this is their only entry. [Actual submission](https://x.com/guyver65731/status/2107054208327278951) · [receipt](SUBMISSION_RECEIPT.json). Organizer acceptance remains unconfirmed.
 
 ## Official conditions
 
@@ -34,11 +34,11 @@ The contest idea is a temporary action-governance room: agents must defend the p
 | Capture provenance | [Manifest](video-manifest.json) and [source hashes](video-verification.json); edited actual production captures, continuous recording=false |
 | Final visual review | PASS: [independent exported-frame review](../reports/MEDIA_AUDIT.md), 7 frames and 10/10 hashes; actual editor/official CLI shot visible |
 | Final package commit/push | This package is committed to main; read the exact package SHA from Git HEAD. Deployed application source remains be724c56279461b9d5c64157eda63eaaa8d2f08e |
-| Links at final send | Recheck repo, actual public endpoint and final video |
-| Single-entry eligibility | **HUMAN_CHECK_AT_FINAL_SEND** — awaiting the user's confirmation that no other entry was submitted; not PASS |
-| Final quote-post/upload/send | **NOT SENT / USER STOP BOUNDARY** |
-| Tweet URL and submission screenshot | Create only after an explicitly authorized final send |
+| Links at final send | PASS: demo and repo HTTP200; exact audited video hash matched; published repo redirect HTTP200 |
+| Single-entry eligibility | User confirmed no other entry before sending |
+| Final quote-post/upload/send | PASS: [published quote-post](https://x.com/guyver65731/status/2107054208327278951), 80-second video and required tags attached |
+| Tweet URL and submission screenshot | [Actual URL](tweet-url.txt), [published screenshot](../reports/submission-sent.png), [browser read-back](../reports/submission-browser-readback.txt) |
 
 The endpoint uses a temporary anonymous Quick Tunnel with no uptime guarantee. Restart rotates its hostname and resets the single Node process's in-memory runs; old references return 410. Capacity is 100 runs per process. This demo endpoint does not certify stable production hosting. Satoshi binaries and generated Skills stay gitignored; fresh checkouts obtain fonts from official Fontshare and reinstall Skills using the README commands.
 
-Stop before final upload/send until the human single-entry check, a fresh link read-back and the user's final instruction are present. No eligibility or submitted-entry claim may be inferred from a ready repository or working demo.
+Final-send conditions were satisfied and exactly one Post action was issued. X confirmed sending; the direct post shows the video, official quotation, mention, hashtag and repository. The account also received an informational discoverability-limit notice; no restriction was bypassed. A sent entry does not certify organizer acceptance or unrestricted search visibility.
