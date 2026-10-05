@@ -23,3 +23,5 @@ submission/final-commit.txt
 reports/DEPLOYMENT_PREFLIGHT.md
 agent-court-linux.tgz
 agent-court-linux.sha256
+reports/video-*.png
+reports/final-video-*-qa.png

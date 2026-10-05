@@ -1,0 +1,57 @@
+{
+  "status": "PUBLIC_BROWSER_E2E_VERIFIED",
+  "application": "Agent Court",
+  "publicUrl": "https://burning-stephen-contractors-really.trycloudflare.com",
+  "sourceRepository": "https://github.com/chizhmansky-prog/agent-court",
+  "sourceCommit": "be724c56279461b9d5c64157eda63eaaa8d2f08e",
+  "linuxCiRun": "https://github.com/chizhmansky-prog/agent-court/actions/runs/37283096306",
+  "runtimeReleaseTag": "runtime-be724c562794",
+  "runtimeArchiveSha256": "be1acf2f43cb99586f67601dfac6b848341ceda12097cf865b83683551a33a76",
+  "archivePathValidation": "PASS before extraction",
+  "nodeVersion": "22.23.3",
+  "nodeArchiveSha256": "df450af89261115ef9f9e3830c3eeb2cc9213b63c720b1af623cb5dcbe2e02de",
+  "nodeChecksumAuthority": "Official nodejs.org latest-v22 SHASUMS256.txt",
+  "cloudflaredVersion": "2026.9.3",
+  "cloudflaredSha256": "77e26d8d900e0b8469f416239d14b5f296525fdf79fee6f511ef55609e3fbac2",
+  "cloudflaredChecksumAuthority": "Official Cloudflare GitHub release asset digest",
+  "hosting": {
+    "mode": "Anonymous Cloudflare Quick Tunnel",
+    "temporaryHostname": true,
+    "uptimeGuarantee": false,
+    "rotatesOnTunnelRestart": true,
+    "publicInflightRequestLimit": 200,
+    "sseSupported": false,
+    "documentation": "https://developers.cloudflare.com/tunnel/get-started/quick-tunnels/"
+  },
+  "runtime": {
+    "onePersistentNodeProcess": true,
+    "userServicesEnabled": true,
+    "lingerVerified": true,
+    "nodeHeapMiB": 192,
+    "appMemoryLimitMiB": 320,
+    "tunnelMemoryLimitMiB": 128,
+    "database": false,
+    "oldRunsAfterRestartHttpStatus": 410,
+    "runCapacityPerProcess": 100,
+    "sharedDemoHumanIdentity": true,
+    "refunds": "simulated only"
+  },
+  "checks": {
+    "localHttp": 200,
+    "publicHttps": 200,
+    "agentCourtTitlePresent": true,
+    "officialSatoshiFonts": "4/4 HTTP 200",
+    "missingOriginHttpStatus": 403,
+    "wrongOriginHttpStatus": 403,
+    "exactOriginWithoutSessionHttpStatus": 401,
+    "privateCredentialFileMode": "0600",
+    "appOriginMatchesPublicUrl": true,
+    "completePublicBrowserCourtFlow": "PASS: blocked APPROVE850, then human53 APPROVE425 -> executor54, receipt425/prevented425"
+  },
+  "finalCompetitionUpload": "NOT SENT",
+  "publicCookieSecurity": {
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "strict"
+  }
+}

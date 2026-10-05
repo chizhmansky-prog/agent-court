@@ -1,25 +1,24 @@
 # Agent Court — X submission draft
 
-Status: DRAFT ONLY. No post has been sent. Public repository URL, live demo URL and final video are PENDING.
+Status: **NOT SENT / DRAFT ONLY**. Final X upload/send is excluded from the user's current instruction. Public repository and browser-tested demo are available; the exported video passed independent visual review.
 
-Intended action after authorization: **quote-post the original official Zero to Chat challenge thread**, attach the verified video under 90 seconds and include the public repository link. Find the original X thread through the [official challenge page](https://www.cometchat.com/hackathon); the challenge page itself is not an X quote-post target.
+Prepared target: [official challenge thread](https://x.com/CometChat/status/2103065271233888471), linked by the [official challenge page](https://www.cometchat.com/hackathon), checked 5 October 2026. The final quote-post uses the video and public repository below; no send has occurred.
 
 ## Post text
 
 ```text
 Agent Court: a live CometChat room challenges an agent's €850 refund request. Human approval changes it to €425, with policy evidence and a simulated receipt. Built with CometChat Skills. @CometChat #ZeroToChat
-Repo: <PUBLIC_REPO_URL>
+Repo: https://github.com/chizhmansky-prog/agent-court
 ```
 
-The draft is 234 characters including the literal repository placeholder. Replace it with the actual public URL and verify the final composed post remains within 280 characters. The public demo URL may be placed in the repository README to keep the post concise.
+Python read-back confirms **264 characters**, including the actual repository URL, within the 280-character limit. [Public demo](https://burning-stephen-contractors-really.trycloudflare.com) is already linked from the README, keeping the post concise. The demo URL is temporary and must be rechecked immediately before any final send.
 
 ## Required final evidence
 
-- Original official X challenge thread identified and selected as the quote target.
-- Public repository link resolves and contains no secrets.
-- Public app tested through a fresh production session.
-- Exported video duration confirmed under 90 seconds; actual CometChat and official Skills visible.
-- Exact composed text/video/repository reviewed and publication authorized.
-- After publication, preserve actual tweet URL, submission screenshot, final video and final commit SHA.
+- Thread target identified; public repository exists; public browser E2E passed.
+- [Video](final-video.mp4): metadata 80.021333s, 1280×960, H264/yuv420p, 30fps, AAC; edited actual runtime captures with the actual editor/official CLI shot. [Independent visual review passed](../reports/MEDIA_AUDIT.md).
+- [Contest checklist](CONTEST_CHECKLIST.md): `HUMAN_CHECK_AT_FINAL_SEND` for the one-entry limit; no eligibility PASS without the user's reply.
+- The pre-upload package and media review are complete. Recheck links and single-entry eligibility immediately before any later authorized final send.
+- After an authorized send, preserve actual tweet URL, submission screenshot, final video and final commit SHA.
 
-No repository, public host, video or submission URL is invented in this draft.
+No tweet/submission URL is invented. This document does not upload, quote-post or send anything.

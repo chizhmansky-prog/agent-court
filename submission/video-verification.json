@@ -1,12 +1,12 @@
 {
-  "status": "VERIFIED_EXPORT_METADATA",
+  "status": "VERIFIED_EXPORT_AND_INDEPENDENT_MEDIA_REVIEW",
   "exportLabel": "Edited demo from actual production runtime captures",
   "continuousScreenRecording": false,
   "financialMode": "Simulated refunds only; no real money moves.",
-  "verifiedAtUtc": "2026-10-05T08:15:47.316427+00:00",
+  "verifiedAtUtc": "2026-10-05T09:06:05.596249+00:00",
   "output": "submission/final-video.mp4",
-  "sha256": "856b3073d677b47c94474c23569729abbfb099142120e3f06d7af28afc2142c3",
-  "manifestSha256": "6fb9aa9051e39ca686837abc85ee54c54e2c28e4724b6f6d279a58447fe7f576",
+  "sha256": "d1e1aa86cd0f88f22fd6c48e09920c25a4f1e9815e065da5472e657bb001097d",
+  "manifestSha256": "80a978c612dcb262a20a7af92fa0c90ab39d8186f68549245782ef5e6cf3ea14",
   "sourceCaptures": [
     {
       "path": "reports/demo-home.jpg",
@@ -30,7 +30,7 @@
     },
     {
       "path": "reports/demo-skills.jpg",
-      "sha256": "5a7585a04f6aad605be6959e74d95bd7cd05424b8e26b0b8dcc9f97300a1aac5"
+      "sha256": "d3c72d5590de823e0e1ceda6df1f4f813e801c5e555d34273bd2e236e8b7ebba"
     }
   ],
   "fontFiles": [
@@ -47,7 +47,7 @@
     "durationSeconds": 80.021333,
     "expectedDurationSeconds": 80,
     "width": 1280,
-    "height": 1280,
+    "height": 960,
     "codec": "h264",
     "pixelFormat": "yuv420p",
     "averageFrameRate": "30/1",
@@ -62,6 +62,152 @@
       "silentAacTrack": true
     }
   },
-  "previousExport": null,
-  "visualReview": "PENDING independent review of actual exported video frames"
+  "previousExport": {
+    "sha256": "329ede0c615666ad7f3e83e1524a986803045f92dee6496dda5eba2b19f90cf8",
+    "metadata": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.640020",
+          "width": 1280,
+          "height": 960,
+          "coded_width": 1280,
+          "coded_height": 960,
+          "has_b_frames": 2,
+          "sample_aspect_ratio": "1515:1513",
+          "display_aspect_ratio": "2020:1513",
+          "pix_fmt": "yuv420p",
+          "level": 32,
+          "color_range": "tv",
+          "color_space": "bt470bg",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 323,
+          "start_time": "0.021029",
+          "duration_ts": 1228800,
+          "duration": "80.000000",
+          "bit_rate": "149724",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "2400",
+          "extradata_size": 52,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc62.28.100 libx264"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 3841024,
+          "duration": "80.021333",
+          "bit_rate": "2285",
+          "nb_frames": "3760",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        }
+      ],
+      "format": {
+        "filename": "submission/final-video.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "80.021333",
+        "size": "1609810",
+        "bit_rate": "160938",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.12.100"
+        }
+      }
+    }
+  },
+  "visualReview": {
+    "status": "MEDIA_AUDIT_PASS",
+    "report": "reports/MEDIA_AUDIT.md",
+    "exportedFramesInspected": 7,
+    "recordedFileHashesMatched": "10/10",
+    "blockingFindings": 0
+  }
 }

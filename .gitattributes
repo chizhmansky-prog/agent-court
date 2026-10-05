@@ -1,0 +1,2 @@
+# Preserve the byte sequence pinned by the media verification envelope.
+submission/video-manifest.json -text

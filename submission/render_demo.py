@@ -97,7 +97,7 @@ def main() -> int:
     args = parser.parse_args()
     manifest_path = SUBMISSION / "video-manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    if manifest.get("version") != 1 or (manifest["width"], manifest["height"], manifest["fps"]) != (1280, 1280, 30):
+    if manifest.get("version") != 1 or manifest["width"] != 1280 or manifest["height"] not in (960, 1280) or manifest["fps"] != 30:
         raise ValueError("Unsupported manifest format")
     if [scene["seconds"] for scene in manifest["scenes"]] != [8, 8, 22, 12, 15, 10, 5]:
         raise ValueError("Scene timing must preserve the approved 80-second sequence")
@@ -136,7 +136,12 @@ def main() -> int:
         caption_file = segment_dir / f"{prefix}-caption.txt"
         label_file = segment_dir / f"{prefix}-label.txt"
         heading_file.write_text(scene["heading"], encoding="utf-8")
-        caption_file.write_text(wrapped_caption(scene["caption"]), encoding="utf-8")
+        caption_lines = wrapped_caption(scene["caption"]).split("\n")
+        caption_files = []
+        for line_index, caption_line in enumerate(caption_lines):
+            line_file = segment_dir / f"{prefix}-caption-{line_index}.txt"
+            line_file.write_text(caption_line, encoding="utf-8", newline="\n")
+            caption_files.append(line_file)
         label_file.write_text("ACTUAL RUNTIME CAPTURE / EDITED DEMO / SIMULATED MONEY", encoding="utf-8")
         segment = segment_dir / f"{prefix}.mp4"
         fade = manifest["fadeSeconds"]
@@ -145,8 +150,8 @@ def main() -> int:
             f"pad={manifest['imageWidth']}:{manifest['imageHeight']}:(ow-iw)/2:(oh-ih)/2:color={manifest['background']}",
             f"pad={manifest['width']}:{manifest['height']}:50:{manifest['imageTop']}:color={manifest['background']}",
             f"drawtext=fontfile={manifest['headingFont']}:textfile={relative(heading_file)}:fontcolor={manifest['headingColor']}:fontsize=34:x=50:y=29",
-            f"drawtext=fontfile={manifest['captionFont']}:textfile={relative(caption_file)}:fontcolor={manifest['captionColor']}:fontsize=21:line_spacing=5:x=50:y=79",
-            f"drawtext=fontfile={manifest['captionFont']}:textfile={relative(label_file)}:fontcolor=0x8e969f:fontsize=18:x=50:y=1235",
+            *[f"drawtext=fontfile={manifest['captionFont']}:textfile={relative(line_file)}:fontcolor={manifest['captionColor']}:fontsize=21:x=50:y={79 + line_index * 31}" for line_index, line_file in enumerate(caption_files)],
+            f"drawtext=fontfile={manifest['captionFont']}:textfile={relative(label_file)}:fontcolor=0x8e969f:fontsize=18:x=50:y={manifest['height'] - 35}",
             f"fade=t=in:st=0:d={fade}",
             f"fade=t=out:st={scene['seconds'] - fade}:d={fade}",
         ])

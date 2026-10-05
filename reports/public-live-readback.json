@@ -1,0 +1,143 @@
+{
+  "mode": "ACTUAL_PUBLIC_HTTPS_COMETCHAT_E2E",
+  "publicUrl": "https://burning-stephen-contractors-really.trycloudflare.com",
+  "courtGuid": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+  "members": [
+    {
+      "uid": "evidence_agent",
+      "name": "Evidence Agent",
+      "scope": "participant"
+    },
+    {
+      "uid": "executor_agent",
+      "name": "Executor Agent",
+      "scope": "participant"
+    },
+    {
+      "uid": "human_judge",
+      "name": "Human Approver",
+      "scope": "admin"
+    },
+    {
+      "uid": "risk_agent",
+      "name": "Risk Agent",
+      "scope": "participant"
+    }
+  ],
+  "messages": [
+    {
+      "id": "49",
+      "sender": "executor_agent",
+      "receiver": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+      "sentAt": 1791189577,
+      "text": "[PROPOSAL]\nCase: ORDER-303\nRequested action: Refund €850\nReason: Customer cancellation request",
+      "metadata": {
+        "@injected": {
+          "extensions": {
+            "link-preview": {
+              "links": []
+            }
+          }
+        },
+        "caseId": "ORDER-303",
+        "courtType": "proposal",
+        "policyId": "REFUND_AFTER_48H_MAX_50",
+        "runId": "d06359f9-09d4-4da8-bed1-a0448d10a097"
+      }
+    },
+    {
+      "id": "50",
+      "sender": "evidence_agent",
+      "receiver": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+      "sentAt": 1791189578,
+      "text": "[EVIDENCE]\nPolicy REFUND_AFTER_48H_MAX_50:\nAfter 48 hours, the maximum refund is 50% of the paid amount.\n\nOrder age: 72h\nPaid: €850\nMaximum allowed: €425",
+      "metadata": {
+        "@injected": {
+          "extensions": {
+            "link-preview": {
+              "links": []
+            }
+          }
+        },
+        "caseId": "ORDER-303",
+        "courtType": "evidence",
+        "policyId": "REFUND_AFTER_48H_MAX_50",
+        "runId": "d06359f9-09d4-4da8-bed1-a0448d10a097"
+      }
+    },
+    {
+      "id": "51",
+      "sender": "risk_agent",
+      "receiver": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+      "sentAt": 1791189580,
+      "text": "[OBJECTION]\nBLOCK €850.\n\nRequested amount exceeds policy maximum by €425.\nRecommended action: modify refund to €425.",
+      "metadata": {
+        "@injected": {
+          "extensions": {
+            "link-preview": {
+              "links": []
+            }
+          }
+        },
+        "caseId": "ORDER-303",
+        "courtType": "objection",
+        "policyId": "REFUND_AFTER_48H_MAX_50",
+        "runId": "d06359f9-09d4-4da8-bed1-a0448d10a097"
+      }
+    },
+    {
+      "id": "52",
+      "sender": "human_judge",
+      "receiver": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+      "sentAt": 1791189740,
+      "text": "APPROVE €850",
+      "metadata": {
+        "@injected": {
+          "extensions": {
+            "link-preview": {
+              "links": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "53",
+      "sender": "human_judge",
+      "receiver": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+      "sentAt": 1791189830,
+      "text": "APPROVE €425",
+      "metadata": {
+        "@injected": {
+          "extensions": {
+            "link-preview": {
+              "links": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "54",
+      "sender": "executor_agent",
+      "receiver": "court-order-303-d06359f9-09d4-4da8-bed1-a0448d10a097",
+      "sentAt": 1791189831,
+      "text": "ACTION EXECUTED — €425 (simulated refund). Receipt: rcpt_501fd528-17f3-4742-a2ec-024f104a6f44",
+      "metadata": {
+        "@injected": {
+          "extensions": {
+            "link-preview": {
+              "links": []
+            }
+          }
+        },
+        "caseId": "ORDER-303",
+        "courtType": "receipt",
+        "decisionMessageId": "53",
+        "receiptId": "rcpt_501fd528-17f3-4742-a2ec-024f104a6f44",
+        "runId": "d06359f9-09d4-4da8-bed1-a0448d10a097",
+        "simulated": true
+      }
+    }
+  ]
+}

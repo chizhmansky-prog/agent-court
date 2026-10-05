@@ -21,7 +21,7 @@
 2. **Core vertical slice.** Canonical case registry; HIGH group; three templates; WAITING_HUMAN; CometChat read-back sender/group/current-run/message freshness; narrow approval/reject grammar; single terminal transition and simulated receipt. LOW bypass; MEDIUM paused REVIEW.
 3. **Verification.** Independent audit separated from implementation. Positive and negative probes below; lint/test/build; actual browser runtime; secret scan and fresh read-back.
 4. **Demo delivery.** Court UI, receipt/counterfactual; README; actual 70–85s video; deployment and production smoke; public repository.
-5. **Submission.** Review exact tweet/video/repo, then publish with explicit authorization. Preserve actual tweet URL, screenshot, video, final SHA. Do not invent delivery evidence.
+5. **Submission boundary (user update).** Prepare exact tweet/video/repo and the contest checklist. Public repository/demo are authorized. Stop before final X upload/send. Preserve an actual tweet URL and screenshot only after a later explicit final-send instruction and single-entry confirmation.
 
 ## POSITIVE / NEGATIVE PROBES
 | Claim | Positive expected result | Negative expected result |
@@ -40,4 +40,6 @@ Missing credentials or login: report gate; finish safe integration preparation, 
 Deliver source paths, commands and actual results, runtime artifacts, independent findings, open blockers and FINAL_STATUS. Full COMPLETE only if original DoD—including actual chat/runtime, URL, public repo, video and X submission—is evidenced. Local build/test success is not integration PASS.
 
 ## STATUS
-Gate 0 actual PASS: reports/GATE0_EVIDENCE.md. Account/app provisioned EU; SDK human message4 and incoming executor message5 validated through real CometChat. Core product implementation and independent audit in progress.
+**PRE_UPLOAD_FOUNDATION_VERIFIED / FINAL_UPLOAD_HELD_BY_USER.** Gate 0 passed before product build (human4 / executor5). Core, dark UI, mobile layout, 127 repository tests and independent core/API/UI/state probes passed. Public Linux deployment is browser-tested: invalid human52 approval850 blocked; valid human53 approval425 produced Executor54 and a simulated receipt425/prevented425. The 80.021333s video passed independent exported-frame review and source hash verification. Evidence: reports/INDEPENDENT_CORE_AUDIT.md, reports/MEDIA_AUDIT.md, reports/public-live-readback.json and submission/PRE_UPLOAD_HANDOFF.md.
+
+The user's later instruction narrows completion to everything before final contest upload. That scope is complete; original full-submission COMPLETE is not claimed. One-entry eligibility remains HUMAN_CHECK_AT_FINAL_SEND. Final X upload/send is NOT SENT.

@@ -5,23 +5,30 @@
 - active_workspace: C:/Users/chizh/Desktop/Agent_Court_Zero_to_Chat_package
 - output_class: CASE_PROJECT_ARTIFACT
 - approved_output_root: C:/Users/chizh/Desktop/Agent_Court_Zero_to_Chat_package
-- current_phase: Core product implementation after actual Gate 0 PASS
-- current_mode: EXECUTE
-- current_verdict: IN_PROGRESS
-- next_safe_action: Server court state machine, real CometChat decision path, frontend; independent verification
+- current_phase: Pre-upload contest package verified
+- current_mode: HANDOFF
+- current_verdict: PRE_UPLOAD_FOUNDATION_VERIFIED / FINAL_UPLOAD_HELD_BY_USER
+- next_safe_action: Final package commit/push and fresh public-link read-back; stop before X upload/send
 - rules_loaded: AWOS manual, runtime controller README/runbook, filesystem patch 003, AI Builder Founder OS, user AGENTS instructions
 - route: local code + official npm/docs; browser inspected login
-- blockers: implementation; verification; delivery/publication (credentials/login and actual Gate0 resolved)
+- blockers: none for pre-upload scope; one-entry eligibility requires human confirmation before final send
 - evidence_ledger: COMPLETION_PLAN.md and reports (created as evidence exists)
-- FILES_CREATED: 3
-- FILES_MODIFIED: 0
-- STATE_MUTATING_EXTERNAL: 9 # app1 + demoUsers4 + group1 + token1 + messages2 evidenced; login separate
+- historical_intake_counters: FILES_CREATED=3, FILES_MODIFIED=0 (initial planning checkpoint only)
+- historical_gate0_external_counter: 9 (app1 + demoUsers4 + group1 + token1 + messages2; not a current total)
+- current_artifact_inventory: Git tracks source and evidence; generated dependencies, credentials and private deployment material remain ignored
 - SECRET_VALUES_PRINTED: 0
 - FORBIDDEN_PATH_TOUCHES: 0
-- protected_gates: login/credentials, production publishing, X send
-- completed_actions: all 3 source specs fully read; two read-only agents dispatched; official rules browsed; credentials names and browser session checked
-- path_safety: new project files only under approved root; original specifications preserved; no AWOS skill writes
-- stop_condition: Publication and real submission require exact action authorization; max5h build
+- protected_gates: spending and final X upload/send; public repository and isolated demo hosting authorized by the user
+- completed_actions: all 3 original specs fully read; Gate0 passed before product build; core implemented; independent audit passed; dark UI and mobile checked; public repository and real HTTPS CometChat E2E verified; 80.021333s video independently reviewed
+- path_safety: original specifications preserved; no AWOS skill source edits; deployment uses only new demo paths and own user services on the verified authorized host; existing proxy/services unchanged
+- stop_condition: stop before final contest upload/send as expressly requested; build completed within the original 5h budget
 - gate0_evidence: reports/GATE0_EVIDENCE.md; actual human message4, realtime executor5, SDK history GATE0_PASS
 - provider_mutations: free app created, four demo users and private integration group; human+agent test messages
 - credential_status: official CLI provisioned; .env.local server secret with no public Auth/REST key
+- application_source_commit: be724c56279461b9d5c64157eda63eaaa8d2f08e
+- public_repository: https://github.com/chizhmansky-prog/agent-court
+- public_demo: https://burning-stephen-contractors-really.trycloudflare.com (temporary hostname; no uptime guarantee)
+- public_e2e_evidence: reports/public-live-readback.json; blocked human52 APPROVE850, human53 APPROVE425 -> executor54; simulated receipt425/prevented425
+- verification_evidence: 127 repository tests, Linux CI, reports/INDEPENDENT_CORE_AUDIT.md, reports/MEDIA_AUDIT.md, reports/public-deployment-receipt.json
+- final_media: submission/final-video.mp4; SHA256 d1e1aa86cd0f88f22fd6c48e09920c25a4f1e9815e065da5472e657bb001097d
+- submission_evidence: submission/CONTEST_CHECKLIST.md, submission/TWEET_DRAFT.md, submission/PRE_UPLOAD_HANDOFF.md; no submitted-entry URL
