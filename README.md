@@ -8,7 +8,7 @@ Agent Court creates a live CometChat room before a risky simulated refund. Execu
 
 **Delivery status:** public build and real CometChat browser flow verified. Competition entry **submitted**: [view the actual X post](https://x.com/guyver65731/status/2107054208327278951). All refunds are simulated; no money moves.
 
-[Open the public demo](https://burning-stephen-contractors-really.trycloudflare.com) · [Public repository](https://github.com/chizhmansky-prog/agent-court) · [Demo video](submission/final-video.mp4) · [Contest checklist](submission/CONTEST_CHECKLIST.md)
+[Open the public demo](https://mind-subsidiaries-discipline-its.trycloudflare.com) · [Public repository](https://github.com/chizhmansky-prog/agent-court) · [Demo video](submission/final-video.mp4) · [Contest checklist](submission/CONTEST_CHECKLIST.md)
 
 ![Agent Court dark interface](reports/product-dark.jpg)
 

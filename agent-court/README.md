@@ -4,7 +4,7 @@ Before an autonomous agent acts, it may have to defend the action.
 
 Zero to Chat 2026 demo. Built with CometChat Skills.
 
-**Verified publicly:** real CometChat integration and the HIGH-risk court → human decision → simulated refund → receipt flow. [Public demo](https://burning-stephen-contractors-really.trycloudflare.com) · [Public repository](https://github.com/chizhmansky-prog/agent-court) · [Video](../submission/final-video.mp4).
+**Verified publicly:** real CometChat integration and the HIGH-risk court → human decision → simulated refund → receipt flow. [Public demo](https://mind-subsidiaries-discipline-its.trycloudflare.com) · [Public repository](https://github.com/chizhmansky-prog/agent-court) · [Video](../submission/final-video.mp4).
 
 ![Agent Court dark interface](../reports/product-dark.jpg)
 
@@ -136,7 +136,7 @@ The dark UI screenshot and public runtime read-back are available. [Video verifi
 | Item | Status |
 |---|---|
 | Public repository | [Available](https://github.com/chizhmansky-prog/agent-court) |
-| Public demo | [Browser E2E passed](https://burning-stephen-contractors-really.trycloudflare.com); temporary URL/no uptime guarantee |
+| Public demo | [Current demo](https://mind-subsidiaries-discipline-its.trycloudflare.com); temporary URL/no uptime guarantee |
 | Screenshot | Captured above |
 | Video | 80.021333s metadata verified; [independent visual review passed](../reports/MEDIA_AUDIT.md) |
 | Single-entry check | Confirmed by the user before sending |
